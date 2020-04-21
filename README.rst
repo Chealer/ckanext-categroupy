@@ -4,8 +4,7 @@ ckanext-categroupy
 
 .. Plugin to rename dataset groups
 
-This plugin works around CKAN issue "Calling dataset groups "groups" (rather than e.g. "categories") is unclear/confusing (terminology)"
-See https://github.com/ckan/ckan/issues/5331
+This plugin works around CKAN issue `Calling dataset groups "groups" (rather than e.g. "categories") is unclear/confusing (terminology)<https://github.com/ckan/ckan/issues/5331>`_.
 
 So far, this only allows renaming to "categories".
 
@@ -52,7 +51,7 @@ TODO: Finish this section
 To add a new language, use something like
    $ python setup.py init_catalog --locale YOUR_LANGUAGE
 Replace YOUR_LANGUAGE with the two-letter ISO language code (e.g. es, de).
-
+Then edit the generated i18n/YOUR_LANGUAGE/LC_MESSAGES/ckanext-categroupy.po. You may copy existing translations from your language's ckan.po.
 
 To keep up with new CKAN releases, you could do something like:
    $ python setup.py update_catalog --locale fr -i ckanext/categroupy/i18n/ckan.pot -o ckanext/categroupy/i18n/fr/LC_MESSAGES/ckanext-categroupy.po
