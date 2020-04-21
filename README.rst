@@ -49,13 +49,19 @@ Development
 ------------------------
 TODO: Finish this section
 
-To add a new language, use something like $ python setup.py init_catalog --locale YOUR_LANGUAGE
+To add a new language, use something like
+   $ python setup.py init_catalog --locale YOUR_LANGUAGE
 Replace YOUR_LANGUAGE with the two-letter ISO language code (e.g. es, de).
 
-To keep up with new CKAN releases, you could do something like
-$ python setup.py update_catalog --locale fr -i ckanext/categroupy/i18n/ckan.pot -o ckanext/categroupy/i18n/fr/LC_MESSAGES/ckanext-categroupy.po
+
+To keep up with new CKAN releases, you could do something like:
+   $ python setup.py update_catalog --locale fr -i ckanext/categroupy/i18n/ckan.pot -o ckanext/categroupy/i18n/fr/LC_MESSAGES/ckanext-categroupy.po
 
 But please do not remove strings found in older CKAN versions as long as this plugin supports these versions.
+
+
+Once a .po file is completed, compile the .mo file using:
+   $ python setup.py compile_catalog
 
 https://docs.ckan.org/en/2.8/contributing/i18n.html#create-a-po-file-for-your-language
 
