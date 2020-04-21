@@ -1,0 +1,309 @@
+# French translations for ckan.
+# Copyright (C) 2020 Gouvernement du Québec
+# This file is distributed under the same license as the ckan project.
+#
+msgid ""
+msgstr ""
+"CKAN Version: 2.8.4\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckan/controllers/feed.py:234 ckan/controllers/group.py:128
+#: ckan/controllers/group.py:226 ckan/controllers/group.py:394
+#: ckan/controllers/group.py:504 ckan/controllers/group.py:537
+#: ckan/controllers/group.py:567 ckan/controllers/group.py:578
+#: ckan/controllers/group.py:632 ckan/controllers/group.py:658
+#: ckan/controllers/group.py:714 ckan/controllers/group.py:746
+#: ckan/controllers/group.py:779 ckan/controllers/group.py:836
+#: ckan/controllers/group.py:933 ckan/controllers/package.py:1270
+#: ckan/controllers/package.py:1285 ckan/logic/action/create.py:1373
+#: ckan/views/feed.py:143
+msgid "Group not found"
+msgstr "Catégorie introuvable"
+
+#: ckan/controllers/group.py:307 ckan/controllers/home.py:62
+#: ckan/controllers/package.py:257 ckan/lib/helpers.py:1074
+#: ckan/templates/group/base_form_page.html:6 ckan/templates/group/edit.html:4
+#: ckan/templates/group/edit_base.html:3 ckan/templates/group/edit_base.html:8
+#: ckan/templates/group/index.html:3 ckan/templates/group/index.html:6
+#: ckan/templates/group/index.html:18 ckan/templates/group/members.html:3
+#: ckan/templates/group/read_base.html:3 ckan/templates/group/read_base.html:6
+#: ckan/templates/header.html:88 ckan/templates/package/group_list.html:5
+#: ckan/templates/package/read_base.html:20
+#: ckan/templates/revision/diff.html:16 ckan/templates/revision/read.html:84
+#: ckan/tests/config/test_middleware.py:632 ckan/views/home.py:47
+msgid "Groups"
+msgstr "Catégories"
+
+#: ckan/controllers/group.py:461
+msgid "Unauthorized to create a group"
+msgstr "Vous n'êtes pas autorisé à créer une catégorie"
+
+#: ckan/controllers/group.py:615 ckan/controllers/group.py:630
+#, python-format
+msgid "Unauthorized to delete group %s"
+msgstr "Vous n'êtes pas autorisé à supprimer la catégorie %s"
+
+#: ckan/controllers/group.py:623
+msgid "Group has been deleted."
+msgstr "Cette catégorie a été supprimée."
+
+#: ckan/controllers/group.py:670
+#, python-format
+msgid "Unauthorized to create group %s members"
+msgstr "Non autorisé à créer des membres de la catégorie %s"
+
+#: ckan/controllers/group.py:712
+#, python-format
+msgid "Unauthorized to add member to group %s"
+msgstr "Vous n'êtes pas autorisé à ajouter un membre à la catégorie %s"
+
+#: ckan/controllers/group.py:731 ckan/controllers/group.py:744
+#, python-format
+msgid "Unauthorized to delete group %s members"
+msgstr "Vous n'êtes pas autorisé à supprimer un membre de la catégorie %s"
+
+#: ckan/controllers/group.py:738
+msgid "Group member has been deleted."
+msgstr "Le membre de cette catégorie a été supprimé."
+
+#: ckan/controllers/group.py:786
+msgid "CKAN Group Revision History"
+msgstr "Historique des révisions de la catégorie CKAN"
+
+#: ckan/controllers/group.py:790
+msgid "Recent changes to CKAN Group: "
+msgstr "Modifications récentes de la catégorie CKAN : "
+
+#: ckan/lib/activity_streams.py:63
+msgid "{actor} updated the group {group}"
+msgstr "{actor} a mis à jour la catégorie {group}"
+
+#: ckan/lib/activity_streams.py:81
+msgid "{actor} deleted the group {group}"
+msgstr "{actor} a supprimé la catégorie {group}"
+
+#: ckan/lib/activity_streams.py:97
+msgid "{actor} created the group {group}"
+msgstr "{actor} a créé la catégorie {group}"
+
+#: ckan/lib/mailer.py:137 ckan/templates/home/snippets/stats.html:23
+msgid "group"
+msgstr "catégorie"
+
+#: ckan/logic/converters.py:173 ckan/logic/validators.py:246
+#: ckanext/stats/templates/ckanext/stats/index.html:113
+msgid "Group"
+msgstr "Catégorie"
+
+# Utilisé quand?
+#: ckan/logic/validators.py:256
+# msgid "That group name or ID does not exist."
+# msgstr "Ce groupe d'utilisateur ou cet identifiant n'existe pas."
+
+#: ckan/logic/validators.py:412
+# msgid "Group name already exists in database"
+# msgstr ""
+
+#: ckan/logic/action/create.py:807
+# msgid "Trying to create an organization as a group"
+# msgstr ""
+
+#: ckan/logic/action/create.py:1454 ckan/logic/action/create.py:1462
+msgid "You must be logged in to follow a group."
+msgstr "Vous devez vous identifier pour suivre une catégorie."
+
+#: ckan/logic/auth/create.py:31 ckan/logic/auth/update.py:45
+#, python-format
+msgid "User %s not authorized to edit these groups"
+msgstr "L'utilisateur %s n'est pas autorisé à modifier ces catégories"
+
+#: ckan/logic/auth/create.py:119
+#, python-format
+msgid "User %s not authorized to create groups"
+msgstr "L'utilisateur %s n'est pas autorisé à créer des catégories"
+
+#: ckan/logic/auth/create.py:189
+#, fuzzy
+msgid "Group was not found."
+msgstr "Catégorie introuvable"
+
+#: ckan/logic/auth/create.py:244 ckan/logic/auth/update.py:115
+#, python-format
+msgid "User %s not authorized to edit group %s"
+msgstr "L'utilisateur %s n'est pas autorisé à modifier la catégorie %s"
+
+#: ckan/logic/auth/delete.py:82
+#, python-format
+msgid "User %s not authorized to delete groups"
+msgstr "L'utilisateur %s n'est pas autorisé à supprimer des catégories"
+
+#: ckan/logic/auth/delete.py:86
+#, python-format
+msgid "User %s not authorized to delete group %s"
+msgstr "L'utilisateur %s n'est pas autorisé à supprimer la catégorie %s"
+
+#: ckan/logic/auth/get.py:198
+#, python-format
+msgid "User %s not authorized to read group %s"
+msgstr "Utilisateur %s non autorisé à lire la catégorie %s"
+
+#: ckan/logic/auth/update.py:145
+#, python-format
+msgid "User %s not authorized to change state of group %s"
+msgstr "L'utilisateur %s n'est pas autorisé à modifier l'état de la catégorie %s"
+
+#: ckan/logic/auth/update.py:162
+#, python-format
+msgid "User %s not authorized to edit permissions of group %s"
+msgstr ""
+"L'utilisateur %s n'est pas autorisé à modifier les permissions de la catégorie %s"
+
+#: ckan/templates/group/base_form_page.html:7
+msgid "Add a Group"
+msgstr "Ajouter une catégorie"
+
+#: ckan/templates/group/base_form_page.html:11
+msgid "Group Form"
+msgstr "Formulaire de catégorie"
+
+#: ckan/templates/group/confirm_delete.html:11
+msgid "Are you sure you want to delete group - {name}?"
+msgstr "Êtes-vous sûr de vouloir supprimer la catégorie - {name}?"
+
+#: ckan/templates/group/edit.html:12
+msgid "Edit Group"
+msgstr "Modifier une catégorie"
+
+#: ckan/templates/group/index.html:13
+#: ckan/templates/user/dashboard_groups.html:7
+msgid "Add Group"
+msgstr "Ajouter une catégorie"
+
+#: ckan/templates/group/index.html:20
+msgid "Search groups..."
+msgstr "Rechercher des catégories..."
+
+#: ckan/templates/group/member_new.html:86
+msgid ""
+" <p><strong>Admin:</strong> Can edit group information, as well as manage"
+" organization members.</p> <p><strong>Member:</strong> Can add/remove "
+"datasets from groups</p> "
+msgstr ""
+"<p><strong>Administrateur:</strong> Peut éditer les informations de catégorie, "
+"ainsi que gérer les membres d'organisations.</p> <p><strong>Membre:</strong>"
+" Peut ajouter/retirer des jeux de données de catégories</p>"
+
+
+#: ckan/templates/group/new.html:3 ckan/templates/group/new.html:5
+#: ckan/templates/group/new.html:7
+msgid "Create a Group"
+msgstr "Créer une catégorie"
+
+#: ckan/templates/group/new_group_form.html:17
+msgid "Update Group"
+msgstr "Modifier la catégorie"
+
+#: ckan/templates/group/new_group_form.html:19
+msgid "Create Group"
+msgstr "Créer une catégorie"
+
+#: ckan/templates/group/snippets/feeds.html:3
+msgid "Datasets in group: {group}"
+msgstr "Jeux de données de la catégorie : {group}"
+
+#: ckan/templates/group/snippets/group_form.html:10
+msgid "My Group"
+msgstr "Ma catégorie"
+
+#: ckan/templates/group/snippets/group_form.html:19
+msgid "A little information about my group..."
+msgstr "Un peu d'information au sujet de ma catégorie..."
+
+#: ckan/templates/group/snippets/group_form.html:37
+msgid "Are you sure you want to delete this Group?"
+msgstr "Etes-vous sûr de vouloir supprimer cette catégorie?"
+
+#: ckan/templates/group/snippets/group_form.html:40
+msgid "Save Group"
+msgstr "Sauvegarder la catégorie"
+
+#: ckan/templates/group/snippets/group_item.html:43
+msgid "Remove dataset from this group"
+msgstr "Retirer le jeu de données de cette catégorie"
+
+#: ckan/templates/group/snippets/helper.html:4
+msgid "What are Groups?"
+msgstr "Que sont les catégories ?"
+
+#: ckan/templates/group/snippets/helper.html:8
+msgid ""
+" You can use CKAN Groups to create and manage collections of datasets. "
+"This could be to catalogue datasets for a particular project or team, or "
+"on a particular theme, or as a very simple way to help people find and "
+"search your own published datasets. "
+msgstr ""
+"Vous pouvez utiliser les catégories CKAN pour créer et gérer des "
+"collections de jeux de données. Cela peut être pour cataloguer des jeux "
+"de données pour un projet ou une équipe en particulier, ou autour d'un "
+"thème spécifique, ou comme moyen très simple d'aider à parcourir et "
+"découvrir vos jeux de données publiés."
+
+#: ckan/templates/home/snippets/stats.html:23
+msgid "groups"
+msgstr "catégories"
+
+#: ckan/templates/package/group_list.html:14
+msgid "Associate this group with this dataset"
+msgstr "Associer cette catégorie à un jeu de données"
+
+#: ckan/templates/package/group_list.html:14
+msgid "Add to group"
+msgstr "Ajouter à la catégorie"
+
+#: ckan/templates/package/group_list.html:23
+msgid "There are no groups associated with this dataset"
+msgstr "Il n'y a pas de catégorie associée à ce jeu de données"
+
+#: ckan/templates/snippets/search_result_text.html:21
+msgid "{number} group found for \"{query}\""
+msgid_plural "{number} groups found for \"{query}\""
+msgstr[0] "{number} catégorie trouvée pour \"{query}\""
+msgstr[1] "{number} catégories trouvées pour \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:22
+msgid "No groups found for \"{query}\""
+msgstr "Aucune catégorie trouvée pour \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:23
+msgid "{number} group found"
+msgid_plural "{number} groups found"
+msgstr[0] "{number} catégorie trouvée"
+msgstr[1] "{number} catégories trouvées"
+
+#: ckan/templates/snippets/search_result_text.html:24
+msgid "No groups found"
+msgstr "Aucune catégorie trouvée"
+
+#: ckan/templates/user/dashboard.html:22
+#: ckan/templates/user/dashboard_groups.html:12
+msgid "My Groups"
+msgstr "Mes catégories"
+
+#: ckan/templates/user/dashboard_groups.html:20
+msgid "You are not a member of any groups."
+msgstr "Vous n'êtes membre d'aucune catégorie."
+
+#: ckan/templates/user/new.html:28
+msgid "Create datasets, groups and other exciting things"
+msgstr ""
+"Créer des jeux de données, des catégories et d'autres choses passionnantes"
+
+#: ckanext/example_theme_docs/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html:20
+#: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html:19
+msgid "This group has no description"
+msgstr "Il n'y a pas de description pour cette catégorie"
