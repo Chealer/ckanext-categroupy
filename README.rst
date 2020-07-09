@@ -4,7 +4,7 @@ ckanext-categroupy
 
 .. Plugin to rename dataset groups
 
-This plugin works around CKAN issue `Calling dataset groups "groups" (rather than e.g. "categories") is unclear/confusing (terminology) <https://github.com/ckan/ckan/issues/5331>`_.
+This plugin works around CKAN issue `Calling dataset groups "groups" (rather than e.g. "categories") is unclear/confusing (terminology) <https://github.com/ckan/ckan/issues/5331>`_. CKAN 3 is scheduled to provide `a cleaner solution <https://github.com/ckan/ckan/pull/5337>`_.
 
 So far, this only allows renaming to "categories".
 
